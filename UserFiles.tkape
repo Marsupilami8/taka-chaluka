@@ -1,0 +1,11 @@
+Description: User Profile Files
+Author: *********
+Version: 1.0
+Id: ce6c0edc-7ff9-4256-a6dc-653eea5edfe0
+RecreateDirectories: True
+Targets:
+    -
+        Name: User Files
+        Category: UserData
+        Path: C:\users\%user%\
+        Recursive: True

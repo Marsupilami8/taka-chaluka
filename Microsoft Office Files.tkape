@@ -607,7 +607,7 @@ Targets:
 		FileMask: '*.thmx'
 		Comment: "Microsoft Office theme"
     -
-        Name: HLQ
+        Name: H1Q
 		Category: Office Productivity
 		Path: C:\*
 		FileMask: '*.h1q'
