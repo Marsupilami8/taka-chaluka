@@ -1,0 +1,626 @@
+Description: Microsoft Office Suite User Files
+Author: ********
+Version: 1.0
+Id: 54f609dc-fc29-4ede-8e78-255fbfe34f32
+RecreateDirectories: True
+
+# Source: https://en.wikipedia.org/wiki/List_of_Microsoft_Office_filename_extensions
+# Source: https://www.file-extensions.org/filetype/extension/name/microsoft-office-files
+
+Targets:
+
+# MICROSOFT WORD
+    -
+        Name: WLL
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.wll'
+		Comment: "Microsoft Word add-in"
+    -
+        Name: ASD
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.asd'
+		Comment: "Microsoft Word auto-save document"
+    -
+        Name: DOC
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.doc'
+		Comment: "Microsoft Word document (prior version 2007)"
+    -
+        Name: SVD
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.svd'
+		Comment: "Microsoft Word document autosave file"
+    -
+        Name: WBK
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.wbk'
+		Comment: "Microsoft Word document saved backup"
+    -
+        Name: DOT
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.dot'
+		Comment: "Microsoft Word document template (up to Microsoft Word 2003 version)"
+    -
+        Name: DOCX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.docx'
+		Comment: "Microsoft Word Open XML document"
+    -
+        Name: DOCM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.docm'
+		Comment: "Microsoft Word Open XML macro-enabled document"
+    -
+        Name: DOTM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.dotm'
+		Comment: "Microsoft Word Open XML macro-enabled document template"
+    -
+        Name: CNV
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.cnv'
+		Comment: "Microsoft Word text conversion data"
+    -
+        Name: DOTX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.dotx'
+		Comment: "Microsoft Word XML document template"
+
+# MICROSOFT ACCESS
+    -
+        Name: MDA
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mda'
+		Comment: "Microsoft Access add-in"
+    -
+        Name: ACCDA
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.accda'
+		Comment: "Microsoft Access add-in"
+    -
+        Name: MDE
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mde'
+		Comment: "Microsoft Access compiled database (application)"
+    -
+        Name: ACCDE
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.accde'
+		Comment: "Microsoft Access compiled execute only database"
+    -
+        Name: ADE
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.ade'
+		Comment: "Microsoft Access compiled project"
+    -
+        Name: MAW
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.maw'
+		Comment: "Microsoft Access data access page"
+    -
+        Name: MDB
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mdb'
+		Comment: "Microsoft Access database"
+    -
+        Name: LACCDB
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.laccdb'
+		Comment: "Microsoft Access database lock file"
+    -
+        Name: MDT
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mdt'
+		Comment: "Microsoft Access database template"
+    -
+        Name: ACCDT
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.accdt'
+		Comment: "Microsoft Access database template"
+    -
+        Name: ACCDU
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.accdu'
+		Comment: "Microsoft Access database wizard"
+    -
+        Name: ACCDC
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.accdc'
+		Comment: "Microsoft Access digitally signed database"
+    -
+        Name: MAF
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.maf'
+		Comment: "Microsoft Access form shortcut"
+    -
+        Name: MAM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mam'
+		Comment: "Microsoft Access macro shortcut"
+    -
+        Name: ACCDB
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.accdb'
+		Comment: "Microsoft Access main database"
+    -
+        Name: ACCDP
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.accdp'
+		Comment: "Microsoft Access project"
+    -
+        Name: MAQ
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.maq'
+		Comment: "Microsoft Access query shortcut"
+    -
+        Name: SNP
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.snp'
+		Comment: "Microsoft Access report shapshot"
+    -
+        Name: MAR
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mar'
+		Comment: "Microsoft Access report shortcut"
+    -
+        Name: ACCDR
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.accdr'
+		Comment: "Microsoft Access runtime mode database"
+    -
+        Name: MAT
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mat'
+		Comment: "Microsoft Access table shortcut"
+    -
+        Name: MDW
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mdw'
+		Comment: "Microsoft Access workgroup information"
+		
+# MICROSOFT EXCEL
+    -
+        Name: XLS
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xls'
+		Comment: "Microsoft Excel 97 to 2003 workbook"
+    -
+        Name: XLT
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xlt'
+		Comment: "Microsoft Excel 97 to 2003 workbook template"
+    -
+        Name: XLA
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xla'
+		Comment: "Microsoft Excel add-in"
+    -
+        Name: XLL
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xll'
+		Comment: "Microsoft Excel add-in"
+    -
+        Name: XAR
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xar'
+		Comment: "Microsoft Excel AutoRecover backup"
+    -
+        Name: XLSB
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xlsb'
+		Comment: "Microsoft Excel binary workbook"
+    -
+        Name: XLC
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xlc'
+		Comment: "Microsoft Excel chart"
+    -
+        Name: XSLB
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xslb'
+		Comment: "Microsoft Excel data"
+    -
+        Name: XLM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xlm'
+		Comment: "Microsoft Excel macro"
+    -
+        Name: XLAM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xlam'
+		Comment: "Microsoft Excel Open XML macro-enabled add-in"
+    -
+        Name: XLSM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xlsm'
+		Comment: "Microsoft Excel Open XML macro-enabled workbook"
+    -
+        Name: XLTM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xltm'
+		Comment: "Microsoft Excel Open XML macro-enabled workbook template"
+    -
+        Name: XLSX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xlsx'
+		Comment: "Microsoft Excel Open XML workbook and spreadsheet"
+    -
+        Name: XLTX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xltx'
+		Comment: "Microsoft Excel Open XML workbook template"
+    -
+        Name: XL
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xl'
+		Comment: "Microsoft Excel spreadsheet"
+    -
+        Name: XLB
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xlb'
+		Comment: "Microsoft Excel toolbars settings"
+    -
+        Name: XLW
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xlw'
+		Comment: "Microsoft Excel workspace"
+
+# MICROSOFT OUTLOOK
+    -
+        Name: IAF
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.iaf'
+		Comment: "Microsoft Outlook exported account and email setting"
+    -
+        Name: OST
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.ost'
+		Comment: "Microsoft Outlook inbox off-line folder"
+    -
+        Name: OAB
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.oab'
+		Comment: "Microsoft Outlook offline address book"
+    -
+        Name: PST
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.pst'
+		Comment: "Microsoft Outlook personal storage table"
+	-
+		Name: MSG
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.msg'
+		Comment: "Microsoft Outlook individual email container"
+    -
+        Name: PRF
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.prf'
+		Comment: "Microsoft Outlook profile"
+    -
+        Name: OFT
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.oft'
+		Comment: "Microsoft Outlook template"
+    -
+        Name: OLM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.olm'
+		Comment: "Outlook for Mac e-mail database"
+    -
+        Name: OBI
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.obi'
+		Comment: "RSS subscription file from Microsoft Outlook 2007 and above versions"
+
+# MICROSOFT POWERPOINT
+    -
+        Name: PPA
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.ppa'
+		Comment: "Microsoft PowerPoint 97 to 2003 add-in"
+    -
+        Name: PPS
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.pps'
+		Comment: "Microsoft PowerPoint 97 to 2003 complete slide show"
+    -
+        Name: PPT
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.ppt'
+		Comment: "Microsoft PowerPoint 97 to 2003 presentation"
+    -
+        Name: POT
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.pot'
+		Comment: "Microsoft PowerPoint 97 to 2003 template"
+    -
+        Name: PA
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.pa'
+		Comment: "Microsoft PowerPoint add-in"
+    -
+        Name: PPAM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.ppam'
+		Comment: "Microsoft PowerPoint macro-enabled Open XML add-in"
+    -
+        Name: PPSM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.ppsm'
+		Comment: "Microsoft PowerPoint macro-enabled Open XML complete slide show"
+    -
+        Name: PPTM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.pptm'
+		Comment: "Microsoft PowerPoint macro-enabled Open XML presentation"
+    -
+        Name: SLDM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.sldm'
+		Comment: "Microsoft PowerPoint macro-enabled Open XML slide"
+    -
+        Name: POTM
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.potm'
+		Comment: "Microsoft PowerPoint macro-enabled Open XML template"
+    -
+        Name: PPSX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.ppsx'
+		Comment: "Microsoft PowerPoint Open XML complete slide show"
+    -
+        Name: PPTX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.pptx'
+		Comment: "Microsoft PowerPoint Open XML presentation"
+    -
+        Name: POTX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.potx'
+		Comment: "Microsoft PowerPoint Open XML presentation template"
+    -
+        Name: SLDX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.sldx'
+		Comment: "Microsoft PowerPoint Open XML slide file"
+		
+# MICROSOFT PROJECT
+    -
+        Name: MPD
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mpd'
+		Comment: "Microsoft Project database"
+    -
+        Name: MPP
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mpp'
+		Comment: "Microsoft Project plan file"
+    -
+        Name: MPT
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mpt'
+		Comment: "Microsoft Project template"
+
+# MICROSOFT INFOPATH
+    -
+        Name: XSF
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xsf'
+		Comment: "Microsoft Office InfoPath form definition"
+    -
+        Name: XSN
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.xsn'
+		Comment: "Microsoft Office InfoPath template form"
+
+# MICROSOFT ONENOTE
+    -
+        Name: ONE
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.one'
+		Comment: "Microsoft OneNote document"
+    -
+        Name: ONEPKG
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.onepkg'
+		Comment: "Microsoft OneNote package"
+
+# MICROSOFT PUBLISHER
+    -
+        Name: PUB
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.pub'
+		Comment: "Microsoft Publisher document"
+    -
+        Name: PUZ
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.puz'
+		Comment: "Microsoft Publisher packed document"
+
+# MICROSOFT VISIO
+    -
+        Name: VSD
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.vsd'
+		Comment: "Microsoft Visio diagram document"
+    -
+        Name: VSDX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.vsdx'
+		Comment: "Microsoft Visio drawing"
+    -
+        Name: VST
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.vst'
+		Comment: "Microsoft Visio flowchart"
+    -
+        Name: VSS
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.vss'
+		Comment: "Microsoft Visio smartshapes data"
+    -
+        Name: VSX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.vsx'
+		Comment: "Microsoft Visio stencil XML document"
+    -
+        Name: VDX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.vdx'
+		Comment: "Microsoft Visio XML drawing"
+    -
+        Name: VTK
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.vtx'
+		Comment: "Microsoft Visio XML template"
+
+# MISCELLANEOUS OFFICE FILES
+    -
+        Name: RPMSG
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.rpmsg'
+		Comment: "Microsoft Restricted Permission Message"
+    -
+        Name: GRV
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.grv'
+		Comment: "Microsoft SharePoint WorkSpace Groove data"
+    -
+        Name: SLK
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.slk'
+		Comment: "Microsoft Symbolic Link format"
+    -
+        Name: MSO
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.mso'
+		Comment: "Microsoft Organization Chart chart data"
+    -
+        Name: PIP
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.pip'
+		Comment: "Microsoft Office personalized settings"
+    -
+        Name: OPS
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.ops'
+		Comment: "Microsoft Office profile settings"
+    -
+        Name: THMX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.thmx'
+		Comment: "Microsoft Office theme"
+    -
+        Name: HLQ
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.h1q'
+		Comment: "Microsoft Help merged query index"
+    -
+        Name: ACL
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.acl'
+		Comment: "Microsoft Office automatic correction list"
+    -
+        Name: CRTX
+		Category: Office Productivity
+		Path: C:\*
+		FileMask: '*.crtx'
+		Comment: "Microsoft Office chart template"
